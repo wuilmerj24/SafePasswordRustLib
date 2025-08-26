@@ -1,7 +1,6 @@
 # SafePasswordLib 🔐
 
-Lib **Android** que utiliza la librería **Rust `safe_password`** creada en la **Parte 1**.  
-
+Lib **Android** que utiliza la librería **Rust `safe_password`** creada en la [Parte 1](https://www.patreon.com/posts/lib-en-rust-de-y-136433647).
 Permite:
 - Generar contraseñas seguras.  
 - Verificar la fuerza de las contraseñas (Weak, Moderate, Strong). 
