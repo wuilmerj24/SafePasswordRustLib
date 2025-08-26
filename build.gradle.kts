@@ -89,7 +89,7 @@ afterEvaluate {
         repositories {
             maven {
                 name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/upinn29/upinnsecretsandroid")
+                url = uri("https://maven.pkg.github.com/wuilmerj24/SafePasswordRustLib")
                 credentials {
                     username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_USERNAME")
                     password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
