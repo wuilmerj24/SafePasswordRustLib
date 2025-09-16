@@ -6,10 +6,10 @@ plugins {
 
 android {
     namespace = "upinn.tech.safepasswordlib"
-    compileSdk = 36
+    compileSdk = 35
 
     defaultConfig {
-        minSdk = 25
+        minSdk = 24
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -50,7 +50,7 @@ afterEvaluate {
             register<MavenPublication>("release") {
                 groupId = "upinn.tech"
                 artifactId = "safepasswordlib"
-                version = "1.0.0"
+                version = "1.0.2"
 
                 from(components["release"])
 
