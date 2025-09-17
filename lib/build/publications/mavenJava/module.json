@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "upinn.tech",
+    "module": "safepasswordlib",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "safepasswordlib-1.0.4.jar",
+          "url": "safepasswordlib-1.0.4.jar",
+          "size": 86801,
+          "sha512": "68e3985f94e26755148dfe3277f6f4029989742bf6e03a8fa8fa37f1b285cffaedac5f1287e786f441708c9678e32cfb841eecb6e0c05560576af46de4491c25",
+          "sha256": "da7535a55d48e3508cfa5ab5d2bd7becf502bc6f32f276583fc9ac3604e90227",
+          "sha1": "27794b6c710830fb8dfbca74bd681f2e19e0e250",
+          "md5": "631fea3870c2327c833aea1d5f72548a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.3.1-jre"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.17.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "safepasswordlib-1.0.4.jar",
+          "url": "safepasswordlib-1.0.4.jar",
+          "size": 86801,
+          "sha512": "68e3985f94e26755148dfe3277f6f4029989742bf6e03a8fa8fa37f1b285cffaedac5f1287e786f441708c9678e32cfb841eecb6e0c05560576af46de4491c25",
+          "sha256": "da7535a55d48e3508cfa5ab5d2bd7becf502bc6f32f276583fc9ac3604e90227",
+          "sha1": "27794b6c710830fb8dfbca74bd681f2e19e0e250",
+          "md5": "631fea3870c2327c833aea1d5f72548a"
+        }
+      ]
+    }
+  ]
+}
