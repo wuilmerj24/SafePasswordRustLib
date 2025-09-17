@@ -34,14 +34,7 @@ android {
 }
 
 dependencies {
-
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
     implementation("net.java.dev.jna:jna:5.17.0@aar")
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 }
 
 afterEvaluate {
@@ -50,7 +43,7 @@ afterEvaluate {
             register<MavenPublication>("release") {
                 groupId = "upinn.tech"
                 artifactId = "safepasswordlib"
-                version = "1.0.2"
+                version = "1.0.7"
 
                 from(components["release"])
 
