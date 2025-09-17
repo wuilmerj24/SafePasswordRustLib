@@ -52,7 +52,7 @@ afterEvaluate {
             register<MavenPublication>("mavenJava") {
                 groupId = "upinn.tech"
                 artifactId = "safepasswordlib"
-                version = "1.0.4"
+                version = "1.0.5"
 
                 // Cambiar de 'release' a 'java' para librerías JVM
                 from(components["java"])
