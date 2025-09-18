@@ -43,7 +43,7 @@ afterEvaluate {
             register<MavenPublication>("release") {
                 groupId = "upinn.tech"
                 artifactId = "safepasswordlib"
-                version = "1.1.0"
+                version = "1.1.1"
 
                 from(components["release"])
 
