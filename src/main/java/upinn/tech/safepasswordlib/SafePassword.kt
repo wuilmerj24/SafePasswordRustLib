@@ -3,12 +3,12 @@ package upinn.tech.safepasswordlib
 
 open class SafePassword {
     open fun makePassword(
-        length: ULong,
+        length: Int,
         includeUppercase: Boolean,
         includeNumbers: Boolean,
         includeSymbols: Boolean
     ): String{
-        val password= generatePassword(length,includeUppercase,includeNumbers,includeSymbols)
+        val password= generatePassword(length.toString().toULong(),includeUppercase,includeNumbers,includeSymbols)
         return password
     }
 

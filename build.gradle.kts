@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "upinn.tech.safepasswordlib"
-    compileSdk = 36
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 25
@@ -43,7 +43,7 @@ afterEvaluate {
             register<MavenPublication>("release") {
                 groupId = "upinn.tech"
                 artifactId = "safepasswordlib"
-                version = "1.0.8"
+                version = "1.1.0"
 
                 from(components["release"])
 
